@@ -13,55 +13,60 @@
   </head>
   <body>
     <header>
-            <div class="container container-fluid">
-                <div class="row">
-                    <div class="col col-lg-1">
-                        <img src="https://picsum.photos/75/75/?random" alt="Imagen Picsum 75x75"> 
-                    </div>
-                    <div class="col col-lg-11">
-                        <h1>
-                            GestoBar
-                        </h1>
-                    </div>    
+        <div class="container"><!--Container Encabezado-->
+            <div class="row">
+                <div class="col col-lg-1">
+                    <img src="https://picsum.photos/75/75?image=0" alt="Imagen Picsum 75x75"> 
                 </div>
+                <div class="col col-lg-11">
+                    <h1>
+                        GestoBar
+                    </h1>
+                </div>    
             </div>
-        <div class="container-fluid">
-                <div class="row">
-                    <div class="col col-lg-12">
-                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                            <div class="collapse navbar-collapse" id="collapsibleNavId">
-                                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                                    <li class="nav-item active">
-                                        <a class="nav-link" href="index.html"> 
-                                            <i class="fa fa-home"></i> Principal <span class="sr-only">(current)</span></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="segunda.html">   
-                                            <i class="fa fa-dollar"></i> Planes y Precios</a> 
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="tercera.html">   
-                                            <i class="fa fa-address-book"></i> Desarrolladores</a>
-                                    </li> 
-                                </ul>
-                            </div>   
-                        </nav>
-                    </div><!--Fin Col12-->
-                </div><!--Fin Row-->
-                <div class="row">
-                    <div class="col col-lg-12">
-                        <nav aria-label="breadcrumb" class="h-100 background-color-primarytiui">
-                            
-                                <ol class="breadcrumb pull-right">
-                                    <li class="breadcrumb-item"><a href="index.html">GestoBar</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Principal</li>
-                                </ol>
-                           
-                        </nav>  
-                    </div>
-                </div>
-                
-        </div><!--Container-->
+        </div><!--Fin Container Encabezado-->
+
+        <div class="container-fluid"><!--Container NavBar-->
+            <div class="row"><!--RowSuperior-->
+                <div class="col col-lg-12"><!--Col-lg-12-->
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <!--Boton Menu Resposive-->
+                        <a class="navbar-brand" href="#">Menu</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <!--End Boton Menu Responsive-->
+                        <div class="collapse navbar-collapse" id="collapsibleNavId">
+                            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html"> 
+                                        <i class="fa fa-home"></i> Principal <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="segunda.html">   
+                                        <i class="fa fa-dollar"></i> Planes y Precios</a> 
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="tercera.html">   
+                                        <i class="fa fa-address-book"></i> Desarrolladores</a>
+                                </li> 
+                            </ul>
+                        </div>   
+                    </nav>
+                </div><!--Fin Col-lg-12-->
+            </div><!--Fin Row Superior-->
+
+            <div class="row"><!--Row Inferior-->
+                <div class="col col-lg-12"><!--Col-lg-12-->
+                    <nav aria-label="breadcrumb" class="h-100 rounded" style="background-color:#e9ecef;"><!--BreadCrumb-->
+                        <ol class="breadcrumb pull-right">
+                            <li class="breadcrumb-item"><a href="index.html">GestoBar</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Principal</li>
+                        </ol>
+                    </nav><!--End BreadCrumb-->
+                </div><!--Fin Col-lg-12-->
+            </div><!--Fin Row Inferior-->
+        </div><!--Container NavBar-->
     </header>
     <main class="container"><!--Container-->
         <section>
