@@ -7,30 +7,31 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
-    <body class="container">
+    <body>
 
-        <header>
+        <header class="container">
             <div class="row">
-                <div class="col col-lg-12">
-                    <img class="d-inline-block" src="https://picsum.photos/75/75?image=0" alt="Imagen Picsum 75x75">
+                <div class="col col-md-12">
+                    <img class="d-inline-block" src="img/gestoBar.jpg" alt="Imagen Picsum 75x75">
                     <h1 class="d-inline-block">GestoBar</h1>
                 </div>
             </div>
         </header>
 
-        <nav>
+        <nav class="container">
             <div class="row">
-                <div class="col col-lg-12">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                <div class="col col-md-12">
+                    <nav class="navbar navbar-expand-md navbar-light bg-light">
+                        <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
                             aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="collapsibleNavId">
-                            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                            <ul class="navbar-nav mr-auto mt-2 mt-md-0">
                                 <li class="nav-item active">
                                     <a class="nav-link" href="index.html"><i class="fa fa-home"></i> Principal <span class="sr-only">(current)</span></a>
                                 </li>
@@ -46,7 +47,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col col-lg-12">
+                <div class="col col-md-12">
                     <nav aria-label="breadcrumb" class="h-100 rounded" style="background-color:#e9ecef;"><!--BreadCrumb-->
                         <ol class="breadcrumb pull-right">
                             <li class="breadcrumb-item"><a href="index.html">GestoBar</a></li>
@@ -57,68 +58,90 @@
             </div>
         </nav>
 
-        <main>
+        <main class="container">
             <section>
 
                 <div class="row my-2"><!--Row Superior-->
-                        <div class="col col-lg-6">
-                                <img class="my-2" src="https://picsum.photos/453/250" alt="ImagenGrande">
+                        <div class="col col-md-6">
+                                <img  id="imgbar"class="my-2" src="img/bar.jpg" alt="ImagenGrande"> <!--453x250-->
                         </div>
-                        <div class="col col-lg-6">
+                        <div class="col col-md-6">
                             <article>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam temporibus impedit corporis earum eligendi error repellat officiis totam, commodi dolore adipisci consequuntur eius minus tempora et consequatur molestias, distinctio aperiam!</p>
+                                <p>
+                                    <b>La Solucion a su negocio</b><br>
+                                    Brindamos un software que permite gestionar con gran facilidad los pedidos desde las mesas dentro de su local.<br>
+                                    Ademas de aportar un soporte para el seguimiento para la reposicion del stock en su local. <br>
+                                    Sus comandas nunca quedaran desatendidas gracias a nuestras implementaciones de administracion.    
+                                    
+                                </p>
                             </article>
                         </div>
                         <hr> <!--Linea Divisoria-->
                 </div><!--Fin Row Superior-->
                 
                 <div class="row my-2"><!--Row Inferior-->
-                    <div class="col col-lg-12"><!--Columna Inferior-->
+                    <div class="col col-md-12"><!--Columna Inferior-->
                         <div class="row my-2"><!--Row Uno-->
-                            <div class="col col-lg-12">
-                                <h1 class="text-center">Descripcion del Sistema</h1>
+                            <div class="col col-md-12">
+                                <h1 class="text-center">Acerca de Gestobar</h1>
                             </div>
                         </div><!--Fin Row Uno-->
                         <div class="row"><!--Row Dos-->
-                            <div class="col col-lg-6">
+                            <div class="col col-md-6">
                                 <div class="row">
-                                    <div class="col col-lg-4">
-                                        <img src="https://picsum.photos/100/100/?random" alt="Imagen Picsum 100x100">
+                                    <div class="col col-md-4">
+                                        <img class="imgCol" src="img/moza.jpg" alt="Imagen 100x100">
                                     </div>
-                                    <div class="col col-lg-8">
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, commodi voluptatem eligendi consectetur temporibus molestiae impedit cupiditate accusamus totam suscipit nesciunt itaque nam placeat similique omnis tempora explicabo dicta. Asperiores?</p>
+                                    <div class="col col-md-8">
+                                        <p>
+                                            <b>Pedidos</b><br>
+                                            Los pedidos pueden ser realizados desde su telefono movil por el cliente, accediendo a nuestro paquete Cliente. <br>
+                                            Esto le permitira realizar el Pedido en tiempo real con total comodidad, y genera una version digital de este.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col col-lg-6">
+                            <div class="col col-md-6">
                                 <div class="row">
-                                    <div class="col col-lg-4">
-                                        <img src="https://picsum.photos/100/100/?random" alt="Imagen Picsum 100x100">
+                                    <div class="col col-md-4">
+                                        <img class="imgCol" src="img/cocinero.jpg" alt="Imagen 100x100">
                                     </div>
-                                    <div class="col col-lg-8">
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, commodi voluptatem eligendi consectetur temporibus molestiae impedit cupiditate accusamus totam suscipit nesciunt itaque nam placeat similique omnis tempora explicabo dicta. Asperiores?</p>
+                                    <div class="col col-md-8">
+                                        <p>
+                                            <b>Comandas</b>
+                                            Las Comandas seran facilmente generadas a partir de los Pedidos con notificaciones a la Cocina. <br>
+                                            Las Comandas poseen varios estados, segun su tiempo de ejecucion.
+
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                         </div><!--Fin Row Dos-->
                         <div class="row"><!--Row Tres-->
-                            <div class="col col-lg-6">
+                            <div class="col col-md-6">
                                 <div class="row">
-                                    <div class="col col-lg-4">
-                                        <img src="https://picsum.photos/100/100/?random" alt="Imagen Picsum 100x100">
+                                    <div class="col col-md-4">
+                                        <img class="imgCol" src="img/factura.jpg" alt="Imagen 100x100">
                                     </div>
-                                    <div class="col col-lg-8">
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, commodi voluptatem eligendi consectetur temporibus molestiae impedit cupiditate accusamus totam suscipit nesciunt itaque nam placeat similique omnis tempora explicabo dicta. Asperiores?</p>
+                                    <div class="col col-md-8">
+                                        <p>
+                                            <b>Facturación</b>
+                                            La Factura se genera cuando el cliente lo solicita o segun un tiempo estimado de consumo. <br>
+
+                                        </p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col col-lg-6">
+                            <div class="col col-md-6">
                                 <div class="row">
-                                    <div class="col col-lg-4">
-                                        <img src="https://picsum.photos/100/100/?random" alt="Imagen Picsum 100x100">
+                                    <div class="col col-md-4">
+                                        <img class="imgCol" src="img/inventario.jpg" alt="">
                                     </div>
-                                    <div class="col col-lg-8">
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, commodi voluptatem eligendi consectetur temporibus molestiae impedit cupiditate accusamus totam suscipit nesciunt itaque nam placeat similique omnis tempora explicabo dicta. Asperiores?</p>
+                                    <div class="col col-md-8">
+                                        <p>
+                                            <b>Inventario</b>
+                                            Nuestro Paquete Avanzado permite un seguimiento eficiente tanto del Catalogo de Productos, tanto como de la disponibilidad de los mismos.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -128,11 +151,11 @@
             </section>
         </main>
 
-        <footer>
+        <footer class="container">
             <div class="row my-1 pt-5">
-                <div class="col col-lg-12">
+                <div class="col col-md-12">
                     <div class="pull-right">
-                        <img class="d-block" src="https://picsum.photos/44/44/?random" alt="Imagen Picsum">
+                        <img class="d-block imgPie" src="img/gestoBar.jpg" alt="Imagen Picsum">
                         <b class="d-block">GestoBar</b>
                     </div>
                 </div>
